@@ -1,0 +1,95 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Software Engineer",
+        "company": "Tech Corp",
+        "experienceRequired": 3,
+        "skills": ["JavaScript", "React"],
+        "description": "Develop and maintain web applications.",
+        "applied": false
+      },
+      {
+        "id": 2,
+        "title": "Product Manager",
+        "company": "Innovate Inc",
+        "experienceRequired": 5,
+        "skills": ["Agile", "Communication"],
+        "description": "Lead product development teams.",
+        "applied": false
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer",
+        "company": "Creative Agency",
+        "experienceRequired": 2,
+        "skills": ["Figma", "Adobe XD", "Sketch"],
+        "description": "Design user-friendly interfaces and experiences.",
+        "applied": false
+      },
+      {
+        "id": 4,
+        "title": "Data Scientist",
+        "company": "Data Insights",
+        "experienceRequired": 4,
+        "skills": ["Python", "Machine Learning"],
+        "description": "Analyze data and build predictive models.",
+        "applied": false
+      },
+      {
+        "id": 5,
+        "title": "DevOps Engineer",
+        "company": "Cloud Solutions",
+        "experienceRequired": 3,
+        "skills": ["AWS", "Docker", "Kubernetes"],
+        "description": "Manage infrastructure and CI/CD pipelines.",
+        "applied": false
+      },
+      {
+        "id": 6,
+        "title": "Marketing Specialist",
+        "company": "Brand Agency",
+        "experienceRequired": 2,
+        "skills": ["SEO", "Content Marketing"],
+        "description": "Develop and implement marketing strategies.",
+        "applied": false
+      },
+      {
+        "id": 7,
+        "title": "Full Stack Developer",
+        "company": "Tech Innovations",
+        "experienceRequired": 5,
+        "skills": ["Node.js", "React", "MongoDB"],
+        "description": "Build scalable web applications from end to end.",
+        "applied": false
+      },
+      {
+        "id": 8,
+        "title": "QA Engineer",
+        "company": "Quality First",
+        "experienceRequired": 3,
+        "skills": ["Testing", "Automation"],
+        "description": "Ensure the quality of software through testing.",
+        "applied": false
+      },
+      {
+        "id": 9,
+        "title": "Systems Analyst",
+        "company": "Tech Solutions",
+        "experienceRequired": 4,
+        "skills": ["SQL", "System Design"],
+        "description": "Analyze and design information systems."
+       
+      },
+      {
+        "id": 10,
+        "title": "Network Administrator",
+        "company": "IT Services",
+        "experienceRequired": 2,
+        "skills": ["Networking", "Security"],
+        "description": "Manage and secure the organization's networks."
+        
+      }
+    ]
+  }
+  

@@ -1,0 +1,140 @@
+.job-list-container {
+    background-image: url("../assests/image4.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.8); 
+    color: black;
+    border-radius: 15px; 
+    /* margin: 0 20px;  */
+width:"40rem";    z-index: 2; 
+margin-right: 30px;
+}
+
+.logo {
+    width: 100px; 
+}
+
+.nav-links {
+    display: flex; 
+}
+
+.nav-links a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.nav-links a:hover {
+    color: rgba(28, 173, 76, 0.8); 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;  
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1; }
+
+.main-heading {
+    font-size: 3rem; 
+    margin: 20px 0;
+}
+
+.heading-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px; 
+    padding: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    max-width: 100%; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.search-bar {
+    z-index: 2; 
+    width: 50rem; 
+    padding: 10px; 
+    margin: 20px 0;
+    margin-top: 80px;
+    font-size: 1.75rem; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    outline: none; 
+    transition: border-color 0.3s; 
+    color:"rgba(28, 173, 76, 0.8)";
+}
+
+.search-bar:focus {
+    border-color: rgba(28, 173, 76, 0.8);
+}
+
+.job-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.job-item {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.job-title {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.company-name {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.applied-tag {
+    color: green;
+    font-weight: bold;
+}
+
+.pagination {
+    margin: 20px 0;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 3px 6px; 
+    width: 3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem; 
+}
+
+.pagination button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
