@@ -59,13 +59,14 @@ const ApplicationForm = ({ job, onApply }) => {
       initialValues={{ firstName: '', lastName: '', email: '', skills: [] }}
       onSubmit={(values) => {
         const applicationDetails = {
-          ...values,
-          aboutMe: editorState.getCurrentContent().getPlainText(),
-          pdfFile: pdfFile,
+            ...values,
+            aboutMe: editorState.getCurrentContent().getPlainText(),
+            pdfFile: pdfFile,
         };
-        generatePDF(applicationDetails); 
+        generatePDF(applicationDetails);
         onApply(job.id); 
-      }}
+    }}
+    
     >
       {({ setFieldValue }) => (
         <Form>

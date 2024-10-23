@@ -7,7 +7,6 @@ const generatePDF = (applicationDetails) => {
   doc.text(`Last Name: ${applicationDetails.lastName}`, 10, 30);
   doc.text(`Email: ${applicationDetails.email}`, 10, 40);
   doc.text(`Skills: ${applicationDetails.skills.join(', ')}`, 10, 50);
-  doc.text(`About Me: ${applicationDetails.aboutMe}`, 10, 60);
   doc.save('application.pdf');
 };
 
