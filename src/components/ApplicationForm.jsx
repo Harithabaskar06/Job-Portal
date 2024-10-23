@@ -43,7 +43,7 @@ const skillsOptions = [
 
 const ApplicationForm = ({ job, onApply }) => {
   const [editorState, setEditorState] = useState(EditorState.createEmpty());
-  const [pdfFile, setPdfFile] = useState(null); // State for the uploaded PDF
+  const [pdfFile, setPdfFile] = useState(null); 
 
   const handleFileChange = (event) => {
     const file = event.currentTarget.files[0];
