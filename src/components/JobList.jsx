@@ -117,10 +117,9 @@ const JobList = () => {
                             <li key={job.id} className="job-item">
                                 <h3 onClick={() => handleJobClick(job)} className="job-title">{job.title}</h3>
                                 <p className="company-name">{job.company}</p>
-                                <button onClick={() => handleApply(job.id)} disabled={job.applied}>
+                                <button className='apply-button' onClick={() => handleApply(job.id)} disabled={job.applied}>
                                     {job.applied ? 'Applied' : 'Apply for Job'}
                                 </button>
-                                {job.applied && <span className="applied-tag"> (Applied)</span>}
                             </li>
                         ))}
                     </ul>
